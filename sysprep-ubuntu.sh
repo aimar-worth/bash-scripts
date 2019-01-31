@@ -70,3 +70,6 @@ apt-get clean
 #cleanup shell history
 history -w
 history -c
+
+#remove sysprep script
+rm sysprep-ubuntu.sh
