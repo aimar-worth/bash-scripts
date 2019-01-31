@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Add usernames to add to /etc/sudoers for passwordless sudo
-users=("devops")
+users=["devops"]
 
 for user in "${users[@]}"
 do
